@@ -1,0 +1,15 @@
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.AssemblyInfoInputs.cache
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.AssemblyInfo.cs
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.csproj.CoreCompileInputs.cache
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.sourcelink.json
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\bin\Debug\net9.0\searchbar.exe
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\bin\Debug\net9.0\searchbar.deps.json
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\bin\Debug\net9.0\searchbar.runtimeconfig.json
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\bin\Debug\net9.0\searchbar.dll
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\bin\Debug\net9.0\searchbar.pdb
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.dll
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\refint\searchbar.dll
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.pdb
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\searchbar.genruntimeconfig.cache
+C:\Users\shiva\Downloads\SearchAutocomplete\searchbar\obj\Debug\net9.0\ref\searchbar.dll
