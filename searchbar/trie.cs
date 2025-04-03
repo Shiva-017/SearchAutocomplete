@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Node {
     public Dictionary<char, Node> children;
-    public bool isEnd;
+    public bool isEnd;  // marks end of a complete word
     
     public Node() {
         children = new Dictionary<char, Node>();
