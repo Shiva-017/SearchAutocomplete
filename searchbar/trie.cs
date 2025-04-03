@@ -7,7 +7,7 @@ class Node {
     
     public Node() {
         children = new Dictionary<char, Node>();
-        isEnd = false;
+        isEnd = false; // default: not a word boundary
     }
 }
 
