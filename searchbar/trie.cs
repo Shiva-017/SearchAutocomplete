@@ -30,6 +30,7 @@ class Trie {
         temp.isEnd = true;
     }
 
+    // Return true if word exists exactly in the trie
     public bool Search(string word) {
         Node temp = root;
         foreach (char ch in word) {
