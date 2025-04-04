@@ -18,6 +18,7 @@ class Trie {
         root = new Node();
     }
 
+    // Insert a word into the trie
     public void Insert(string word) {
         Node temp = root;
         foreach (char ch in word) {
