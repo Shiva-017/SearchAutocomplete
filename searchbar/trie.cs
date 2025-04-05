@@ -85,6 +85,7 @@ class Trie {
         }
     }
 
+    // Return all words that start with the given prefix
     public List<string> ListAllWordsWithPrefix(string prefix) {
         List<string> words = new List<string>();
         Node temp = root;
