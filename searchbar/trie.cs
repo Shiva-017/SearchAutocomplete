@@ -99,6 +99,7 @@ class Trie {
         return words;
     }
 
+    // DFS helper to collect all words reachable from node
     private void Dfs(Node node, string path, List<string> words) {
         if (node.isEnd) {
             words.Add(path);
