@@ -44,7 +44,7 @@ class Trie {
 
     // Delete a word from the trie; returns true if node was removed
     public bool Delete(string word) {
-        return deleteHelper(word, 0, root);
+        return deleteHelper(word, 0, root);  // start traversal from root
     }
 
     private bool deleteHelper(string word, int index, Node node) {
