@@ -53,7 +53,7 @@ class Trie {
                 return false;
             }
             node.isEnd = false;
-            return node.children.Count == 0;
+            return node.children.Count == 0;  // safe to prune if leaf
         }
 
         char ch = word[index];
