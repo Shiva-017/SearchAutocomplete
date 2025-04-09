@@ -64,7 +64,7 @@ class Trie {
         bool shouldDelete = deleteHelper(word, index + 1, node.children[ch]);
         if (shouldDelete) {
             node.children.Remove(ch);
-            return node.children.Count == 0 && !node.isEnd;
+            return node.children.Count == 0 && !node.isEnd;  // prune if empty non-word
         }
         return false;
     }
