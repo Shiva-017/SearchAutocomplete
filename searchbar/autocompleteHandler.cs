@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 public class AutocompleteHandler
 {
-    private static Trie trie = new Trie();
+    private static readonly Trie trie = new Trie();
 
     public static void mapRoutes(WebApplication app)
     {
