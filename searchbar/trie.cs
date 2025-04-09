@@ -71,7 +71,7 @@ class Trie {
 
     // Return all words stored in the trie
     public List<string> ListAllWords() {
-        List<string> words = new List<string>();
+        var words = new List<string>();
         ListAllWordsHelper("", root, words);
         return words;
     }
