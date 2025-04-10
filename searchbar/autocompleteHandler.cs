@@ -22,7 +22,7 @@ public class AutocompleteHandler
             {
                 if (trie.Search(data["word"]))
                 {
-                    await context.Response.WriteAsync("Word already exists");
+                    await context.Response.WriteAsync("word already exists");
                 }
                 else
                 {
