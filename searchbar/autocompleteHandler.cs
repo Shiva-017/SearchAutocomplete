@@ -27,7 +27,7 @@ public class AutocompleteHandler
                 else
                 {
                     trie.Insert(data["word"]);
-                    await context.Response.WriteAsync("Word inserted");
+                    await context.Response.WriteAsync("word inserted");
                 }
             }
         });
