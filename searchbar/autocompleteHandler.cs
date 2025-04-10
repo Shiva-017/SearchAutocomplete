@@ -52,7 +52,7 @@ public class AutocompleteHandler
                 if (trie.Search(data["word"]))
                 {
                     trie.Delete(data["word"]);
-                    await context.Response.WriteAsync("Word deleted");
+                    await context.Response.WriteAsync("word deleted");
                 }
                 else
                 {
