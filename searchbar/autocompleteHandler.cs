@@ -56,7 +56,7 @@ public class AutocompleteHandler
                 }
                 else
                 {
-                    await context.Response.WriteAsync("Word not found");
+                    await context.Response.WriteAsync("word not found");
                 }
             }
         });
