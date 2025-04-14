@@ -16,6 +16,7 @@ public class AutocompleteHandler
     // Wire up all autocomplete API routes
     public static void mapRoutes(WebApplication app)
     {
+        // POST /insert: add a word to the trie
         app.MapPost("/insert", async (HttpContext context) =>
         {
             var data = await context.Request.ReadFromJsonAsync<Dictionary<string, string>>();
