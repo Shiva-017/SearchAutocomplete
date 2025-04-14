@@ -13,6 +13,7 @@ public class AutocompleteHandler
 {
     private static readonly Trie trie = new Trie();
 
+    // Wire up all autocomplete API routes
     public static void mapRoutes(WebApplication app)
     {
         app.MapPost("/insert", async (HttpContext context) =>
