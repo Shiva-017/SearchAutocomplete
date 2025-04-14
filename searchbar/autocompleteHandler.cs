@@ -33,6 +33,7 @@ public class AutocompleteHandler
                 }
             }
         });
+        // GET /search?q=: return prefix matches
         app.MapGet("/search", async (HttpContext context) =>
         {
             string? query = context.Request.Query["q"];
