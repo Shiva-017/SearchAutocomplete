@@ -47,6 +47,7 @@ public class AutocompleteHandler
                 await context.Response.WriteAsJsonAsync<List<string>>([]);
             }
         });
+        // POST /delete: remove a word from the trie
         app.MapPost("/delete", async(HttpContext context) =>
         {
             var data = await context.Request.ReadFromJsonAsync<Dictionary<string, string>>();
