@@ -48,7 +48,7 @@ async function insertWord() {
 }
 
 async function deleteWord(word) {
-    console.log(word);
+    console.log('[autocomplete] deleting word:', word);
     await fetch("/delete", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
