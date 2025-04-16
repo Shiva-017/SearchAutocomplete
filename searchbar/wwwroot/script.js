@@ -7,7 +7,7 @@ async function fetchSuggestions() {
     let response = await fetch(`/search?q=${query}`);
     let suggestions = await response.json();
     let suggestionBox = document.getElementById("suggestions");
-    console.log(suggestions);
+    console.log('[autocomplete] suggestions:', suggestions);
     suggestionBox.innerHTML = "";
     suggestions.forEach(word => {
         let li = document.createElement("li");
