@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Allow all origins for local dev
 builder.Services.AddCors(options =>{
     options.AddDefaultPolicy(policy => {
         policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
