@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>{
 
 var app = builder.Build();
 
-app.UseStaticFiles();
+app.UseStaticFiles();  // serve wwwroot/ files
 app.MapGet("/", async context =>{
     await context.Response.SendFileAsync("wwwroot/index.html");
 });
