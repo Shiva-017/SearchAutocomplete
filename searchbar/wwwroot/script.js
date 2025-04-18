@@ -44,6 +44,7 @@ async function insertWord() {
     });
 
     document.getElementById("search-box").value = "";
+    document.getElementById("search-box").focus();
     fetchSuggestions();
 }
 
