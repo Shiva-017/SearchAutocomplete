@@ -14,7 +14,7 @@ async function fetchSuggestions() {
         let p = document.createElement("p");
         let p2 = document.createElement("p");
         p.innerText = word;
-        p2.innerText ="X";
+        p2.innerText = "×";
         p2.style.color = "red";
         p2.style.cursor = "pointer";
         p2.addEventListener("click", () => deleteWord(p.innerText
