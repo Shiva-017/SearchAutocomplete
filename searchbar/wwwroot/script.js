@@ -50,6 +50,7 @@ async function insertWord() {
     fetchSuggestions();
 }
 
+// Remove word from trie and update suggestion list
 async function deleteWord(word) {
     console.log('[autocomplete] deleting word:', word);
     await fetch("/delete", {
