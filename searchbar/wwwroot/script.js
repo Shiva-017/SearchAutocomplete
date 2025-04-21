@@ -1,3 +1,4 @@
+// Fetch and render autocomplete suggestions for current input
 async function fetchSuggestions() {
     let query = document.getElementById("search-box").value;
     if (query.length === 0) {
