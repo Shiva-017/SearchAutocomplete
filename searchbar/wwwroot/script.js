@@ -34,6 +34,7 @@ async function fetchSuggestions() {
     });
 }
 
+// Insert current search box value into the trie
 async function insertWord() {
     let word = document.getElementById("search-box").value;
     if (!word) return;
